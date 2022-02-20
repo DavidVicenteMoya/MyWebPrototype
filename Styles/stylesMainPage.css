@@ -1,0 +1,47 @@
+body
+{
+	/*Background and general appearance of the main page*/
+	background-color: powderblue;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+
+	/*General text settings*/
+	text-align: justify;
+	font-family: 'Courier New', monospace;
+
+	/*Display general settings*/
+	display: grid;
+  	grid-template-rows: auto 1fr auto;
+}
+
+	/*Particular text cases*/
+h4
+{
+	color: darkblue;
+	font-size: 115%;
+}
+
+h3
+{
+	color: darkblue;
+	font-size: 125%;
+}
+
+dd
+{
+	font-size: 95%;
+	color: slategrey;
+}
+
+footer
+{
+	text-align: center;
+	color: lightgrey;
+
+	min-height: 25px;
+	background: slateblue;
+	margin-left: 0%;
+	margin-right: 0%;
+}
