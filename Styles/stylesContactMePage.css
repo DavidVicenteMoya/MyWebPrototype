@@ -1,15 +1,14 @@
 body
 {
-	/*Background and general appearance of the main page*/
-	background-color: powderblue;
+	/*Background and general appearance*/
+	background-color: black;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 0%;
-	margin-bottom: 0%;
 
 	/*General text settings*/
 	text-align: justify;
 	font-family: 'Courier New', monospace;
+	colopr: green;
 
 	/*Display general settings*/
 	display: grid;
@@ -17,19 +16,16 @@ body
 }
 
 	/*Particular text cases*/
-h4
-{
-	color:  darkblue;
-	font-size: 115%;
-}
+h4 { color: forestgreen; font-size: 115%; }
+p, pre{ color: lightgreen; }
 
 header
 {
 	text-align: center;
-	color: lightgrey;
+	color: lightgreen;
 
 	min-height: 25px;
-	background: slateblue;
+	background: darkslateblue;
 	margin-left: 0%;
 	margin-right: 0%;
 }
